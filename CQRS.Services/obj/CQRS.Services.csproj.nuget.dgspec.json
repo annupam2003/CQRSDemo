@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Services\\CQRS.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj",
+        "projectName": "CQRS.Models",
+        "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj",
+        "packagesPath": "C:\\Users\\Anupam Kumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anupam Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\CQRS.Repositorys.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\CQRS.Repositorys.csproj",
+        "projectName": "CQRS.Repositorys",
+        "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\CQRS.Repositorys.csproj",
+        "packagesPath": "C:\\Users\\Anupam Kumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anupam Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj": {
+                "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Services\\CQRS.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Services\\CQRS.Services.csproj",
+        "projectName": "CQRS.Services",
+        "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Services\\CQRS.Services.csproj",
+        "packagesPath": "C:\\Users\\Anupam Kumar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Anupam Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj": {
+                "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Models\\CQRS.Models.csproj"
+              },
+              "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\CQRS.Repositorys.csproj": {
+                "projectPath": "C:\\Users\\Anupam Kumar\\source\\repos\\CQRSDemo\\CQRS.Repositorys\\CQRS.Repositorys.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

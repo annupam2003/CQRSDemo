@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CQRS.Models\CQRS.Models.csproj" />
+    <ProjectReference Include="..\CQRS.Services\CQRS.Services.csproj" />
+  </ItemGroup>
+
+</Project>
